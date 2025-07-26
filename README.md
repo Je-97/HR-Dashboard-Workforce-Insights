@@ -51,7 +51,8 @@ Gender Distribution
 
 🔹 Dashboard Preview
 
-![Demo](images/hr dashboard.gif)
+![Demo](images/hr_dashboard.gif)
+
 
 ## Dataset Source ##
 This dataset is publicly available on Kaggle, and was used solely for educational and visualization purposes.
