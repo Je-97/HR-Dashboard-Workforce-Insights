@@ -42,6 +42,39 @@ Job Level Insights Including:
 Gender Distribution
 - Visualized breakdown of male vs. female employees.
 
+## Data Modeling & Relationships ##
+
+The original dataset was a single flat table. Using Power Query, I was able to transform and split the data into multiple dimensionally-structured tables such as:
+
+EmployeeInfo
+
+Performance
+
+Salary
+
+JobInfo
+
+ExperienceInfo
+
+EducationInfo
+
+I also created a separate Departments table to normalize department-related data and establish clean one-to-many relationships across the model.
+
+The relationships were built primarily using EmployeeNumber as a common key across the fact tables, enabling comprehensive and dynamic analysis.
+
+This structure allowed me to visualize and explore key HR insights such as:
+
+Attrition rate per department
+
+Monthly pay vs. job satisfaction by role
+
+Job level vs. performance & satisfaction
+
+Gender distribution
+
+Experience and tenure metrics
+
+
 ## Tools Used ##
 - Power BI – for interactive data visualization
 - Microsoft Excel – for data preparation
