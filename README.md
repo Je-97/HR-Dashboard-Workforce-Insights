@@ -84,7 +84,7 @@ Experience and tenure metrics
 
 🔹 Dashboard Preview
 
-![Demo](images/hr_dashboard.gif)
+![Demo](images/hr-dashboard.gif)
 
 
 ## Dataset Source ##
